@@ -1,1 +1,1 @@
-errrrrrrr
+Hi I'm *Barry*! I'm a software engineer who loves to build things. My journey into softwarre 

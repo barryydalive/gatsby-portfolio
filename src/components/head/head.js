@@ -192,7 +192,6 @@ const HeadWithQuery = props => (
             themeColor
             social {
               twitter
-              fbAppId
             }
           }
         }
