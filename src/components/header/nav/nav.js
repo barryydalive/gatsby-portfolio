@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container } from './nav.css';
 // import FollowAt from 'react-social-media-follow';
-import FollowAt from './FollowAt'
+// import FollowAt from './FollowAt'
+const ClientSideOnlyLazy = React.lazy(() => import('./FollowAt'))
 
 const Nav = () => {
   const links = [
@@ -12,6 +13,7 @@ const Nav = () => {
     "https://github.com/barryydalive",
   ];
 
+  const isSSR = typeof window === 'undefined'
 
   return (
     <Container>
@@ -20,7 +22,11 @@ const Nav = () => {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <FollowAt links={links} />
+          {!isSSR && (
+            <React.Suspense fallback={<div/>}>
+              <ClientSideOnlyLazy links={links}/>
+            </React.Suspense>
+          )}
         </li>
       </ul>
     </Container>
