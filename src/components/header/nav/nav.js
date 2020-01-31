@@ -19,9 +19,9 @@ const Nav = () => {
   return (
     <Container>
       <ul>
-        <li>
+        {/* <li>
           <Link to="/about">About</Link>
-        </li>
+        </li> */}
         <li>
           <a
             href={resume}

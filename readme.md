@@ -112,7 +112,7 @@ Find the site-wide configuration in `site-config.js`.
 
 ```js
 module.exports = {
-  siteTitle: `go away`,
+  siteTitle: `Gatsby Universal`,
   siteTitleShort: `GatsbyU`,
   siteDescription: `An opinionated starter for Gatsby.`,
   siteUrl: `https://gu.fabianschultz.com`,
