@@ -19,7 +19,25 @@ export const Copy = styled.p`
 `;
 
 export const ImageContainer = posed.div({
-  hoverable: true,
-  init: { filter: 'grayscale(100%)' },
-  hover: { filter: 'grayscale(15%)' },
+//   hoverable: true,
+//   hover: { 
+//     filter: 'grayscale(100%)',
+//     scale: 1.2
+// },
+//   init: { 
+//     filter: 'grayscale(15%)',
+//     scale: 1
+//   },
 });
+
+export const Figure = posed.figure({
+  hoverable: true,
+  hover: { 
+    // filter: 'grayscale(100%)',
+    scale: 1.05
+},
+  init: { 
+    // filter: 'grayscale(15%)',
+    scale:1
+ },
+})

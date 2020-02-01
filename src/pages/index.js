@@ -10,7 +10,8 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image'
 import { ImageContainer, FlexBox } from '../components/box/box.css';
 const Index = ({ data }) => {
-  console.log('data.homeJson:', data.homeJson);
+  console.log('if this is jeff then get the hell out');
+  console.log("thanks for opening my console. there's basically no reason to be here but that's okay. Since you're here feel free to email me at barry.huang93@gmail.com with job opportunities")
   const profile = data.homeJson.profile
   const { image } = profile
   return (
