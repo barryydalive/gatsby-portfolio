@@ -5,32 +5,38 @@
     {
       "title": "DashPad",
       "copy": "React Native App created to make old tablets useful. Displays commute time, weather, time, and upcoming calendar events",
-      "image": "../images/gallery/dashpad_shelf.jpg"
+      "image": "../images/gallery/dashpad_shelf.jpg",
+      "link": "https://github.com/reactoship/DashPad"
     },
     {
       "title": "Enki",
       "copy": "Expo App created to allow non-programmers to make their own mobile apps. Inspired by SquareSpace",
-      "image": "../images/gallery/enki.png"
+      "image": "../images/gallery/enki.png",
+      "link": "https://www.youtube.com/watch?list=PLx0iOsdUOUmmL875tGLv6WKi_JSPzrrrQ&v=0XMCHfd0v3E&feature=emb_logo"
     },
     {
       "title": "Barry's Beer Fridge",
       "copy": "Website built to track the inventory of my apartment beer fridge.",
-      "image": "../images/gallery/barrys-beer-fridge.png"
+      "image": "../images/gallery/barrys-beer-fridge.png",
+      "link": "https://barrysbeerfridge.herokuapp.com/"
     },
     {
       "title": "Did Yandhi Drop Yet?",
       "copy": "Website checks the Itunes API to see if the Kanye West album YANDHI has released",
-      "image": "../images/gallery/did-yandhi-drop.png"
+      "image": "../images/gallery/did-yandhi-drop.png",
+      "link": "http://did-yandhi-drop.herokuapp.com/"
     },
     {
       "title": "GameHub",
       "copy": "Team Project to develop an e-commerce website. My team built a website for selling video games online.",
-      "image": "../images/gallery/game_hub.png"
+      "image": "../images/gallery/game_hub.png",
+      "link": "http://game-hub2019.herokuapp.com/"
     },
     {
       "title": "FeelsGoodMan",
       "copy": "Hackathon project as a student at FullStack Academy. Expo/React Native app built with the intention of simplifying weather data and letting users know if it 'Feels Good Man' or 'Feels Bad Man' outside.",
-      "image": "../images/gallery/feelsGoodMan.png"
+      "image": "../images/gallery/feelsGoodMan.png",
+      "link": "https://github.com/barryydalive/feelsGoodManJpg"
     }
   ],
   "profile" : {

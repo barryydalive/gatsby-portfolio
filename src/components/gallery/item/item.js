@@ -1,29 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
+import Modal from 'containers/modal'
+import { Consumer } from 'store/createContext'
 import { Title, Copy, ImageContainer } from './item.css';
 
-const Item = ({ title, copy, image }) => (
-  <figure>
-    <ImageContainer>
-      <Img
-        fluid={
-          image
-            ? {
+const Item = ({ title, copy, image, link }) => {
+  console.log('link:', link);
+  return (
+
+    <a style={{textDecoration:'none', color: 'black'}} href={link} target='_blank'>
+      <figure>
+
+      <ImageContainer>
+        <Img
+          fluid={
+            image
+              ? {
                 ...image.childImageSharp.fluid,
                 aspectRatio: 1.5,
               }
-            : {}
-        }
-        alt={title}
-      />
-    </ImageContainer>
-    <figcaption>
-      <Title>{title}</Title>
-      <Copy>{copy}</Copy>
-    </figcaption>
-  </figure>
-);
+              : {}
+          }
+          alt={title}
+        />
+      </ImageContainer>
+      <figcaption>
+        <Title>{title}</Title>
+        <Copy>{copy}</Copy>
+      </figcaption>
+      </figure>
+     </a>
+)};
 
 Item.propTypes = {
   title: PropTypes.string,

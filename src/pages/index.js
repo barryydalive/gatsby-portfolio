@@ -58,6 +58,7 @@ export const query = graphql`
       gallery {
         title
         copy
+        link
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 100) {
