@@ -21,7 +21,7 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    overflow: hidden;
+    // overflow: hidden;
   }
 
   /* HTML5 display-role reset for older browsers */
